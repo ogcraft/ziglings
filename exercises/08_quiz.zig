@@ -21,13 +21,9 @@ pub fn main() void {
 
     // The following lines attempt to put 'Z', 'i', and 'g' into the
     // 'lang' array we just created.
-    lang[0] = letters[x];
-
-    x = 3;
-    lang[???] = letters[x];
-
-    x = ???;
-    lang[2] = letters[???];
+    lang[0] = letters[1];
+    lang[1] = letters[3];
+    lang[2] = letters[5];
 
     // We want to "Program in Zig!" of course:
     std.debug.print("Program in {s}!\n", .{lang});
